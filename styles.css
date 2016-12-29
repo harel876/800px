@@ -1,0 +1,225 @@
+body{
+  background-image:url('images/black-lion-wallpaper.jpg');
+  color:#000305;
+  font-size: 87.5%;
+  font-family: Ariel, 'Lucida Sans Unicode'; 
+  line-height: 1.5;
+  text-align: left;
+  background-attachment: fixed;  
+}                
+a{
+  text-decoration: none;
+}
+.body{
+  margin: 0 auto;
+  width: 70%;
+  clear:both;
+}
+/*.audience img{  
+  width: 886px;
+  height: 150px;
+  margin: 2% 0 ;
+}*/
+.mainHeader nav{
+  background: rgba(160, 111, 62, 0.3);
+  margin: 1% 0;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+.mainHeader nav ul{
+  list-style: none;
+  margin: 0 auto;
+}
+.mainHeader nav ul li{
+  float: left;
+  display: inline;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+  color:black;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav:active a:link{
+  color: #FFF;
+  text-shadow:none;
+}  
+.mainHeader nav ul li a{
+   border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}
+.mainContent{
+  line-height: 25px;
+   border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+
+}
+.content{
+  width: 70%;
+  float: left;
+  color: #FFF;
+}
+.topcontent{
+  background: #FFF;
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding: 3%;
+  background: rgba(160, 111, 62, 0.3);
+  margin: 1px 0;
+}
+.topcontent h2 a:hover,.bottomcontent h2 a:hover{
+  color:#FFF;
+}
+.bottomcontent{
+   background: #FFF;
+   border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding: 3%;
+  background: rgba(160, 111, 62, 0.3);
+  margin: 1.5% 0;
+}
+.topcontent a, .bottomcontent a{
+  color: #FC8439;
+}
+.post-info{
+  font-style: italic;
+  color: black;
+  font-size: 14px;
+}
+.top-sidebar{
+  width: 21%;
+  float: left;
+  background: rgba(160, 111, 62, 0.3);
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin: 0.2% 0 2% 3%;
+  padding: 2% 3%; 
+}
+.midlle-sidebar{
+  width: 21%;
+  float: left;
+  background: rgba(160, 111, 62, 0.3);
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-left:3%;
+  margin-bottom:2%; 
+  padding: 2% 3%;
+}
+.bottom-sidebar{
+  width: 21%;
+  float: left;
+  background: rgba(160, 111, 62, 0.3);
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  padding: 2% 3%;
+}
+.top-sidebar h2,.midlle-sidebar h2,.bottom-sidebar h2{
+  color: #FC8439;
+}
+.top-sidebar p,.midlle-sidebar p,.bottom-sidebar p{
+  color: #FFF;
+}
+.mainFooter{
+  width: 100%;
+  height: 40%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  background: rgba(160, 111, 62, 0.3);
+  margin:10px 0;
+}
+.mainFooter p{
+  width: 92%;
+  margin:10px auto;
+  color:black;
+}
+.mainFooter a{
+  color: #FC8439;
+}
+.mainFooter a:hover{
+  color: #FFF;
+} 
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+
+    .body{
+      width: 90%;
+      font-size: 95%;
+    }
+    .audience img{
+      display: none;
+    }
+    .mainHeader nav{
+      height: 160px;
+    }
+    .mainHeader nav ul{
+      padding-left: 0;
+    }
+    .mainHeader nav ul li{
+      width: 100%;
+      text-align: center;
+    }
+    .mainHeader nav a:link, .mainHeader nav a:visited{
+      padding: 10px 25px;
+      height: 20px;
+      display: block;
+    }
+     .content{
+      width: 100%;
+      float: left;
+      margin-top: 2%;
+    }
+     .post-info{
+      display: none;
+    }
+     .topcontent{
+      background: #FFF;
+      border-radius: 5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      padding: 3% 5%;
+      margin-top: 2%;
+      margin-bottom: 4%;
+    }
+     .bottomcontent{
+      margin-top:3%;
+    }
+     .top-sidebar, .midlle-sidebar, .bottom-sidebar{
+      width: 94%;
+      margin: 3% 0 2% 0%;
+      padding: 3% 3%; 
+    
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
